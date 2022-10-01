@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <title>[MSG]</title>
+    <link href="../assets/error/css/error.css" rel="stylesheet">
+    <link href="./assets/error/css/error.css" rel="stylesheet">
+</head>
+<body>
+<div class="flex-center position-ref full-height">
+    <div class="code">
+        [STATE]
+    </div>
+    <div class="message" style="padding: 10px;">
+        [MSG]
+    </div>
+</div>
+</body>
+</html>

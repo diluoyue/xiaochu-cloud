@@ -1,0 +1,696 @@
+body {
+    background-color: #EEEFF6;
+    /*margin-top:-25px;*/
+    font-size: 14px;
+}
+
+.white {
+    background: #fff;
+}
+
+.navbar {
+    padding: .2rem 0rem;
+    margin-bottom: 5px;
+}
+
+.margin-top {
+    margin-top: -26px;
+}
+
+.toubu_logo {
+    float: left;
+}
+
+.toubu_logo img {
+    width: 100%;
+}
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.bg-dark {
+    background-color: white !important;
+    border: 1px solid #E4E4E6;
+}
+
+.navbar-dark .navbar-brand {
+    color: #364E66;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url(img/gang.png);
+    float: left;
+}
+
+.navbar-nav {
+    padding: 10px 20px;
+}
+
+.navbar-nav .nav-item {
+    /*background-color: #EEEFF6;*/
+    border-bottom: 1px solid #F5F5F5;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #5A6778;
+}
+
+.navbar-brand {
+    font-size: 0;
+}
+
+.touxiang {
+    overflow: hidden;
+    width: 30px;
+    float: left;
+    border-radius: 50%;
+    margin-right: 8px;
+    margin-top: 3px;
+}
+
+.ceshi {
+    font-size: 12px;
+}
+
+.ceshi i {
+    font-size: 18px;
+    margin-right: 5px;
+    color: #20b0fa;
+}
+
+.touxiang img {
+    width: 100%;
+}
+
+.ceshi {
+    font-size: 14px;
+    display: block;
+    float: right;
+    color: #9397B0;
+    line-height: 36px;
+}
+
+.gonggao {
+    color: #606C78;
+    line-height: 40px;
+
+    font-size: .95rem;
+}
+
+.gonggao i {
+    color: #15AF16;
+    font-size: 16px;
+}
+
+.list-group-item {
+    padding: 0;
+    border: none;
+    border-bottom: 1px solid #F6F6F6;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.xuanze {
+    padding-top: 10px;
+    margin-bottom: 5px;
+}
+
+.leixing {
+    font-weight: 700;
+    color: #444E5A;
+    margin-top: 2px;
+}
+
+.xuanxiang {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.xuanxiang a {
+    font-size: .9rem;
+    line-height: 1.1rem;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background: none;
+    color: #3EB1EF;
+    border-color: #89DAFC;
+}
+
+.xiadanqu {
+    margin-bottom: 10px;
+}
+
+.shipin {
+    color: #A2A0B6;
+    padding: 8px 0;
+    font-size: .9rem;
+    border-bottom: 1px solid #ECECED;
+}
+
+.chaxun {
+    text-align: right;
+}
+
+.chaxun a {
+    color: #A2A0B6;
+}
+
+.aqytupian {
+    /*padding-right: 10px;*/
+    max-width: 28%;
+}
+
+.aqytupian img {
+    width: 100%;
+}
+
+.xiadanq {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.xiadanq h6 {
+    color: #394C60;
+    font-weight: 600;
+    margin-bottom: 0;
+    font-size: .95rem;
+    height: 2.2rem;
+}
+
+.qupad {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.jine {
+    font-size: 1.3rem;
+    text-align: right;
+    color: #F33749;
+    line-height: 1.5rem;
+}
+
+.fuhao {
+    font-size: .9rem;
+}
+
+.qian {
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.xiao_1 {
+    font-size: 0.6rem;
+    padding: 2px 0;
+}
+
+.daichong {
+    border-radius: 5px;
+    display: inline-block;
+    background: #EDF6FF;
+    color: #56A1FA;
+    padding: 0 6px;
+}
+
+.kucunbuzhu {
+    border-radius: 5px;
+    display: inline-block;
+    background: #EDF6FF;
+    padding: 0 6px;
+}
+
+.xiaoliang {
+    color: #999DB3;
+}
+
+.kucun {
+    color: #CACAD6;
+    text-align: right;
+}
+
+.list_1 {
+    padding: 10px 0;
+    border-bottom: 1px solid #F5F5F5;
+}
+
+/*购买页*/
+.goumaixq {
+    margin-bottom: 7px;
+    padding-bottom: 12px;
+}
+
+.aqytu {
+    text-align: center;
+    padding: 16px 0;
+}
+
+.aqytu img {
+    width: 31%;
+}
+
+.cdk {
+    color: #3C4A58;
+    font-size: 1.05rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.jine_gmy {
+    text-align: left;
+}
+
+.yuanjia {
+    font-size: 1rem;
+    color: #9EA2B8;
+    text-decoration: line-through;
+}
+
+.daichong_2 {
+    font-size: .8rem;
+    background: #EDF6FF;
+    color: #56A1FA;
+    padding: 0 7px;
+    margin-left: 15px;
+}
+
+.font_dx {
+    font-size: .9rem;
+}
+
+.chongzu_2 {
+    margin-left: 12px;
+}
+
+.xiaoliang_2 {
+    text-align: right;
+    color: #CED1D8;
+}
+
+.dingdanxinxi {
+    padding: 13px 0 20px 0;
+    margin-bottom: 10px;
+}
+
+.dingd {
+    color: #394C5D;
+    font-weight: 700;
+}
+
+#danhao {
+    font-size: .94rem;
+    background: #F5F5F5;
+    border: none;
+    width: 75%;
+    color: #9CA1A6;
+}
+
+.jiajianbiaodan {
+    width: 45%;
+}
+
+.btn-outline-secondary {
+    color: #949DAB;
+    border-color: #F5F5F5;
+    background: #F5F5F5;
+}
+
+.form-control {
+    border-color: #F5F5F5;
+}
+
+.zffs {
+    margin-bottom: .7rem;
+}
+
+#zf label {
+    margin-right: 16px;
+}
+
+.goumaianniu {
+    background-color: #3B89EB;
+    border-color: #3B89EB;
+}
+
+.zhuyi {
+    padding: 10px 0;
+}
+
+.shixiang {
+    color: #F05268;
+    font-size: .9rem;
+    line-height: 2rem;
+}
+
+.guanfang {
+    color: #A0A7AB;
+    font-size: .7rem;
+    line-height: 1.4rem;
+}
+
+/*购买页*/
+.mt-3 h4 {
+    color: #394C5D;
+}
+
+.mt-3 input {
+    background: #f5f5f5;
+    padding: 1.2rem .75rem;
+}
+
+.jiluanniu {
+    line-height: 1.3;
+}
+
+.tijiaogongdan {
+    padding: 11px 0;
+}
+
+.tijiaogongdan input {
+    background: #f5f5f5;
+    padding: 1.2rem .75rem;
+}
+
+.tijiaogongdan textarea {
+    background: #f5f5f5;
+}
+
+.bjimg {
+    background: url(img/zhucebg.jpg);
+}
+
+.kuang1 {
+    background: url(img/bg_03.png);
+    box-shadow: 0px 3px 6px #333333;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px 0 80px 0;
+    box-sizing: border-box;
+    font-family: "微软雅黑", Microsoft YaHei UI;
+}
+
+.kuang1 h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 2rem 0;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.denglu_inp {
+    height: calc(2.1em + .75rem + 2px);
+}
+
+.input-group_gai {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.dengluanniu {
+    width: 85%;
+    margin: 20px auto;
+    margin-top: 40px;
+    background-color: #007bff;
+    border-color: #007bff;
+    color: white;
+}
+
+.lijizhcue {
+    width: 85%;
+    margin: 0 auto;
+    text-align: right;
+}
+
+.lijizhcue a {
+    color: white;
+}
+
+.news-time {
+    border-bottom: 2px dashed #F5F5F5;
+    padding: 3px 0;
+    margin-bottom: 8px;
+}
+
+.text-xq {
+    min-height: 650px;
+}
+
+.news_pad {
+    padding: 20px 0;
+}
+
+.news_list2 {
+    min-height: 650px;
+    color: #3A4E62;
+}
+
+.news_pad h4 {
+    color: #212529;
+    border-bottom: 2px dashed #F5F5F5;
+}
+
+.nianyue {
+    padding-left: 10px;
+}
+
+.zdy-btn-sm {
+    background: #20b0fa;
+    color: #fff;
+    border: 0;
+    border-radius: 4px;
+    padding: 4px 10px;
+}
+
+.hui_li {
+    position: relative;
+    display: block;
+    padding: .75rem 1.25rem;
+    background-color: #fff;
+    border-bottom: 1px solid #DFDFDF;
+}
+
+.huiyuan_li li:first-child {
+    border-bottom: none;
+}
+
+.text-blue {
+    color: #20b0fa;
+}
+
+.touxiangtu {
+    width: 30%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+.touxiangtu img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.dingdan_jl thead th {
+    border-top: none;
+}
+
+.jilu_line {
+    line-height: 1.3rem;
+}
+
+.xq_bt {
+    padding: 2px 10px;
+}
+
+.ddxq_title {
+    text-align: center;
+}
+
+.margin-top {
+    margin-top: -26px;
+}
+
+.mobile-news-content {
+    padding-top: 20px;
+    text-indent: 2em;
+    font-size: 14px;
+}
+
+.page {
+    padding: 6px 0;
+}
+
+.mt-3-text {
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+
+.success-km {
+    margin-top: 10px;
+}
+
+.success-km-text {
+    width: 100%;
+    padding: 10px;
+}
+
+.text-blue {
+    color: #20b0fa;
+}
+
+.text-red {
+    color: red;
+}
+
+/***page*/
+@media (max-width: 320px) {
+    .toubu_logo {
+        display: none;
+    }
+
+}
+
+.pagination {
+}
+
+.pagination li {
+    display: inline-block;
+    margin-right: -1px;
+    padding: 4px 10px;
+    border: 1px solid #e2e2e2;
+    min-width: 20px;
+    text-align: center;
+    color: #20b0fa
+}
+
+.pagination li.active {
+    background: #20b0fa;
+    color: #fff;
+    border: 1px solid #20b0fa;
+}
+
+.pagination li a {
+    display: block;
+    text-align: center;
+}
+
+/**error**/
+input.error {
+    border: 1px solid red;
+}
+
+label.error {
+    margin-top: 2px;
+    padding-left: 0px;
+    padding-bottom: 2px;
+    font-weight: bold;
+    color: #EA5200;
+}
+
+label.checked {
+
+}
+
+.hot-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.f-input {
+    margin-bottom: 6px;
+}
+
+.form-control {
+    font-size: 14px;
+}
+
+.chengse {
+    padding: 1px 8px;
+    border-radius: 4px;
+    margin-right: 5px;
+    background: #ff6f06;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.list-group-item {
+    padding: 12px 0px;
+    border-color: #eee;
+}
+
+a.list-group-item {
+    font-weight: 600;
+    color: #646464;
+}
+
+a.list-group-item:hover,
+a.list-group-item:focus {
+    color: #5c90d2;
+}
+
+.list-group-item.active,
+.list-group-item.active:hover,
+.list-group-item.active:focus {
+    background-color: #5c90d2;
+    border-color: #5c90d2;
+}
+
+.list-group-item.active > .badge {
+    color: #5c90d2;
+}
+
+.btn-warning .badge {
+    color: #f3b760;
+    background-color: #ffffff;
+}
+
+.btn-danger {
+    color: #ffffff;
+    background-color: #d26a5c;
+    border-color: #c54736;
+}
+
+.btn-danger:hover,
+.btn-danger:focus,
+.btn-danger.focus,
+.btn-danger:active,
+.btn-danger.active,
+.open > .dropdown-toggle.btn-danger {
+    color: #ffffff;
+    background-color: #c94d3c;
+    border-color: #953629;
+}
+
+.btn-danger:active,
+.btn-danger.active,
+.open > .dropdown-toggle.btn-danger {
+    background-color: #a53c2d;
+    border-color: #6d271e;
+}
+
+.btn-danger.disabled,
+.btn-danger[disabled],
+fieldset[disabled] .btn-danger,
+.btn-danger.disabled:hover,
+.btn-danger[disabled]:hover,
+fieldset[disabled] .btn-danger:hover,
+.btn-danger.disabled:focus,
+.btn-danger[disabled]:focus,
+fieldset[disabled] .btn-danger:focus,
+.btn-danger.disabled.focus,
+.btn-danger[disabled].focus,
+fieldset[disabled] .btn-danger.focus,
+.btn-danger.disabled:active,
+.btn-danger[disabled]:active,
+fieldset[disabled] .btn-danger:active,
+.btn-danger.disabled.active,
+.btn-danger[disabled].active,
+fieldset[disabled] .btn-danger.active {
+    background-color: #d26a5c;
+    border-color: #c54736;
+}
+
+.btn-danger .badge {
+    color: #d26a5c;
+    background-color: #ffffff;
+}

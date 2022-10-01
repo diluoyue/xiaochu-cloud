@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>[Title]</title>
+    <meta name="renderer" content="webkit"/>
+    <meta name="force-rendering" content="webkit"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"/>
+    <link rel="stylesheet" type="text/css" href="./assets/layui/css/layui.css"/>
+    <link rel="stylesheet" type="text/css" href="../assets/layui/css/layui.css"/>
+    <link rel="stylesheet" type="text/css" href="../../assets/layui/css/layui.css"/>
+    <style type="text/css">
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Lantinghei SC, Open Sans, Arial, Hiragino Sans GB, Microsoft YaHei, "微软雅黑", STHeiti, WenQuanYi Micro Hei, SimSun, sans-serif;
+            -webkit-font-smoothing: antialiased
+        }
+
+        body {
+            padding: 0;
+            margin: 0;
+            background: #edf1f4;
+            font-weight: 400;
+            font-size: 1pc;
+            -webkit-text-size-adjust: none;
+            color: #333
+        }
+
+        a {
+            outline: 0;
+            color: #3498db;
+            text-decoration: none;
+            cursor: pointer
+        }
+
+        .system-message {
+            margin: 1% 5%;
+            padding: 30px 20px;
+            background: rgb(255, 255, 255);
+            box-shadow: 1px 1px 12px rgba(99, 99, 99, 0.1);
+            text-align: center;
+            border-radius: 8px;
+        }
+
+        @media screen and (min-width: 475px) {
+            .system-message {
+                margin: 1% 20%;
+            }
+        }
+
+        .system-message img {
+            max-width: 98%;
+            margin: auto;
+        }
+
+        .system-message h1 {
+            margin: 0;
+            margin-bottom: 16px;
+            color: #444;
+            font-weight: 400;
+            font-size: 25px
+        }
+
+        .system-message .jump, .system-message .image {
+            padding: 10px 0;
+        }
+
+        .system-message .jump {
+            font-size: 14px
+        }
+
+        .system-message .jump a {
+            color: #333
+        }
+
+        .system-message p {
+            font-size: 9pt;
+            line-height: 20px
+        }
+
+        .system-message .btn {
+            display: inline-block;
+            margin-right: 10px;
+            width: 138px;
+            height: 2pc;
+            border: 1px solid #44a0e8;
+            border-radius: 30px;
+            color: #44a0e8;
+            text-align: center;
+            font-size: 1pc;
+            line-height: 2pc;
+            margin-bottom: 5px;
+        }
+
+        .success .btn {
+            border-color: #69bf4e;
+            color: #69bf4e
+        }
+
+        .warning .btn {
+            border-color: #ffc061;
+            color: #ffc061
+        }
+
+        .error .btn {
+            border-color: #ff8992;
+            color: #ff8992
+        }
+
+        .info .btn {
+            border-color: #3498db;
+            color: #3498db
+        }
+
+        .copyright p {
+            width: 100%;
+            color: #919191;
+            text-align: center;
+            font-size: 10px
+        }
+
+        .system-message .btn-grey {
+            border-color: #bbb;
+            color: #bbb
+        }
+
+        .clearfix:after {
+            clear: both;
+            display: block;
+            visibility: hidden;
+            height: 0;
+            content: ".";
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 20px 0;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .system-message h1 {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body style="[Background]">
+<div class="system-message" style="margin-top: 70px;">
+    <div style="margin-bottom: 10px;">
+        [Image]
+    </div>
+    <h1>
+        [Title]
+    </h1>
+    <div style="margin-top: 30px">
+        [Content]
+    </div>
+    <p class="jump" style="display:[UrlBtn]">
+        页面将在 <span id="wait">[Second]</span>秒后自动<a id="href" href="[Url]">跳转</a>
+    </p>
+    <p class="clearfix" style="margin-top: 40px;">
+        <a href="javascript:history.go(-1);"
+           style="line-height: 2em !important;height: 2em !important;color: rgba(53,53,53,0.74);font-size: 14px; text-shadow: 0px 0px 1px #baaeae;">返回上一步</a>
+        <a href="[Url]"
+           style="display:[UrlBtn];color: #0b9ff5;font-size: 14px;margin-left: 20px;">立即跳转</a>
+    </p>
+</div>
+<script src="./assets/layui/layui.all.js"></script>
+<script src="../assets/layui/layui.all.js"></script>
+<script src="../../assets/layui/layui.all.js"></script>
+<script type="text/javascript">
+    (function () {
+        var interval;
+        var wait = document.getElementById('wait'),
+            href = document.getElementById('href').href;
+        if ('[Url]' == '-1') {
+            return;
+        }
+        interval = setInterval(function () {
+            var time = --wait.innerHTML;
+            if (time <= 0) {
+                location.href = href;
+                clearInterval(interval);
+            }
+        }, 1000);
+    })();
+</script>
+<script>
+    window.onload = function () {
+        let loading = document.getElementById('loading');
+        let jis = 100;
+        for (let i = jis; i >= 0; i--) {
+            setTimeout(function () {
+                let sum = loading.style.opacity - 0;
+                if (sum > 0.5) {
+                    loading.style.opacity = '' + i / 100 + '';
+                } else {
+                    loading.style.display = 'none';
+                }
+            }, 5 * (jis - i));
+        }
+    }
+</script>
+</body>
+</html>

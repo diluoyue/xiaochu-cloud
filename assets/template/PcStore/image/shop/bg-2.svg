@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="840px" height="186px" viewBox="0 0 840 186" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>bg-2</title>
+    <g id="PC-商城布局" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="桌面端-HD" transform="translate(-460.000000, -134.000000)" fill-rule="nonzero">
+            <g id="bg-2" transform="translate(460.000000, 134.000000)">
+                <polygon id="路径" fill-opacity="0.2" fill="#FFFFFF" points="0 0 840 0 840 186 0 186"></polygon>
+                <path d="M0,186 L840,186 L840,138.756757 C840,138.756757 731.43,110 572.25,110 C413.07,110 193.90875,169.567568 0,169.567568 L0,186 Z" id="路径" fill-opacity="0.12" fill="#FF614A"></path>
+                <path d="M0,186 L0,135.87479 C45.0769771,129.825749 90.7526129,126.857817 136.5,127.005232 C259.875,127.005232 568.44375,167.691279 653.625,167.691279 C738.80625,167.691279 840,151.41686 840,151.41686 L840,186 L0,186 Z" id="路径" fill-opacity="0.24" fill="#FF614A"></path>
+            </g>
+        </g>
+    </g>
+</svg>

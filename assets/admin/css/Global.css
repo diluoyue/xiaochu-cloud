@@ -1,0 +1,83 @@
+.Hover {
+    position: fixed;
+    right: 1em;
+    bottom: 38vh;
+    z-index: 6666;
+}
+
+.HoverIcon {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 3rem;
+    box-shadow: 3px 3px 16px #ccc;
+    transition: 1s all;
+}
+
+.HoverIcon:hover {
+    cursor: pointer;
+    box-shadow: 3px 3px 16px #bdb8ff;
+}
+
+.HoverRight {
+    position: fixed;
+    right: 4em;
+    bottom: 31vh;
+    width: 15.5rem;
+    height: 15.5rem;
+    border-radius: 0.3em;
+}
+
+.HoverRightS {
+    position: fixed;
+    right: 4em;
+    bottom: 31vh;
+    width: 15.5rem;
+    height: 15.5rem;
+    border-radius: 1rem;
+    box-shadow: 3px 3px 36px #ccc;
+    z-index: -8;
+    background: #1f1c2c;
+    background: -webkit-linear-gradient(to right, rgb(31, 28, 44), rgb(146, 141, 171), rgb(252, 92, 125), rgb(106, 130, 251), rgb(238, 205, 163), rgb(239, 98, 159));
+    background: linear-gradient(to right, rgb(31, 28, 44), rgb(146, 141, 171), rgb(252, 92, 125), rgb(106, 130, 251), rgb(238, 205, 163), rgb(239, 98, 159));
+    opacity: 0.7;
+    background-size: 400%;
+    background-attachment: fixed;
+    animation: bganimation 18s infinite;
+}
+
+@keyframes bganimation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.HoverApp {
+    cursor: pointer;
+    height: 4rem;
+    width: 4rem;
+    text-align: center;
+    background-color: #fff;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    opacity: 0.9;
+    transition: 1s all;
+}
+
+.HoverApp img {
+    border-radius: 0.3rem;
+    box-shadow: 3px 3px 18px #eee;
+}
+
+.HoverApp:hover {
+    opacity: 1;
+    box-shadow: 3px 3px 18px #5f5f5f;
+}

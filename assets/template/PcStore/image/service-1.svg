@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 4</title>
+    <defs>
+        <circle id="path-1" cx="18" cy="18" r="18"></circle>
+        <filter x="-8.3%" y="-8.3%" width="116.7%" height="116.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="2" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="-2" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.04 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="模版1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页---Px" transform="translate(-1128.000000, -18.000000)">
+            <g id="编组-4" transform="translate(1128.000000, 18.000000)">
+                <g id="椭圆形">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                </g>
+                <g id="客服" transform="translate(9.000000, 9.000000)" fill-rule="nonzero">
+                    <path d="M17.7096774,6.72387097 C17.8992581,7.45083872 18,8.21351615 18,9 C18,13.9703226 13.9703226,18 9,18 C4.02967741,18 0,13.9703226 0,9 C0,4.02967741 4.02967741,0 9,0 C9.78648387,0 10.5491613,0.10074194 11.276129,0.290322571 L17.7096774,0.290322571 L17.7096774,6.72387097 Z" id="路径" fill="#FF9485"></path>
+                    <path d="M10.7419355,2.55077419 L10.7419355,2.55193547 C10.1739068,2.39919408 9.588206,2.32207682 9,2.32257819 C5.31203226,2.32257819 2.32258064,5.31203226 2.32258064,9 C2.32258064,12.6879677 5.31203226,15.6774194 9,15.6774194 C12.6879677,15.6774194 15.6774218,12.6879677 15.6774218,9 C15.6779232,8.411794 15.6008059,7.82609323 15.4480645,7.25806452 L15.4498065,7.25806452 L15.3870968,2.61290321 L10.7419355,2.55077419 Z" id="路径" fill="#FF6650"></path>
+                    <path d="M4.35483871,9 L6.67741936,9 C6.67741934,9.82977816 7.12010071,10.5965248 7.83870966,11.0114139 C8.55731862,11.426303 9.44268138,11.426303 10.1612903,11.0114139 C10.8798993,10.5965248 11.3225807,9.82977816 11.3225806,9 L13.6451613,9 C13.6451613,11.5655807 11.5655806,13.6451613 9,13.6451613 C6.43441936,13.6451613 4.35483871,11.5655806 4.35483871,9 Z" id="路径" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

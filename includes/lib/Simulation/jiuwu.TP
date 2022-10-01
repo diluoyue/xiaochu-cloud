@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>[name]-[title]</title>
+    <script>
+        var user = { "id": [username] , "name":  "[username]" , "rmb": "[money]"};	</script>
+</head>
+<body>
+<!--顶部-->
+<header>
+    <div class="container-fluid menu">
+        <div class="container">
+            <div class="row">
+                <!-- //超大 电脑 平板 手机 -->
+                <div class="col-lg-8 col-md-7 col-sm-6 col-xs-8"><a  class="clipboard_btn"  href="/index.php?m=Home&c=Index&a=index"><h2>[name]</h2></a></div>
+                <div class="col-lg-4 col-md-5 col-sm-6 col-xs-4 text-right">
+                    <div class="top_nav">
+
+
+                        <a href="/index.php?m=Home&c=Index&a=index" class="hidden-sm hidden-xs">切换到首页</a>
+
+                        <span class="hidden-sm hidden-xs">|</span>
+
+                        <a class="exit_login_a clipboard_btn" href="/index.php?m=Home&c=Card&a=logout&id=[gid]&goods_type=[cid]">退出登录</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 banner">[content]</div>
+    </div>
+</div>
+
+<!--内容-->
+<div class="container jwxh_main_div">
+    <div class="row">
+        <!--用户信息/卡信息-->
+        <div class="col-md-4">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h2 class="panel-title">
+                        用户信息
+                    </h2>
+                </div>
+                <div class="panel-body">
+                    <ul class="card_info" ajax_href="/index.php?m=Home&c=Card&a=cardinfo&id=[gid]&goods_type=[cid]">
+                        <li><span>用户帐号：</span><span class="user_name">[username]</span>&#12288;<a style="color:red;" href='javascript:void(0);' class="kmzh_gaimi" >改密</a></li>
+
+                        <li>
+                            <span>现金单价：</span><span  title="每1[units]单价为[UnitPrice]元">[min][units]=[MinPrice]元</span>
+
+                            <span class="user_unit_rmb" style="display:none;">[UnitPrice]</span>
+                        </li>
+                        <li>
+                            <span>现金余额：</span><span class="user_rmb">[money]</span>元
+                            &nbsp;
+
+                            <a class="a_rmb_logs_go" href="#tab_rmb_logs" style="color:red">明细</a>
+                        </li>
+                        <li><span>类型余额：</span><span class="card_kye">[integration]</span>[units]</li>
+                        <li><span>当前类型：</span><span class="user_goods_type_title">模拟对接</span></li>
+                        <li><span>最后登录：</span><span class="user_last_login">模拟对接</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-md-4">
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h2 class="panel-title">
+                        下单区
+                    </h2>
+                </div>
+                <div class="panel-body">
+                    <form role="form" method="post" class="order_post_form" action="/index.php?m=home&c=order&a=ly_add&id=[gid]&goods_type=[cid]">
+                        <ul>
+                            [input]<li><span class="fixed-width-right-80">下单数量：</span><input class="order_number" name="need_num_0" type="text" placeholder="范围[min]-[max]之间"/></li>						<input type="hidden" name="goods_id" value="[gid]">
+                            <input type="hidden" name="goods_type" value="[cid]">
+
+                            <li>
+                                <span class="fixed-width-right-80">支付方式：</span>
+                                <div class="form-inline">
+                                    <input id="pay_card" name="pay_type" type="radio" value="0" ><label class="font_weight_400" for="pay_card">卡密(<span class="card_kye">[integration]</span>[units]<span class="order_need_cardnum"></span>)</label>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="fixed-width-right-80">&nbsp;</span>
+                                <div class="form-inline">
+                                    <input id="pay_rmb" name="pay_type" type="radio" value="1" ><label class="font_weight_400" for="pay_rmb">现金(<span class="user_rmb">[money]</span>元<span class="order_need_rmb"></span>)</label>
+                                </div>
+                            </li>
+                            <li><span class="fixed-width-right-80">&nbsp;</span><button class="btn order_post_btn clipboard_btn">确定下单[name]</button></li>
+                        </ul>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+</body>
+</html>
